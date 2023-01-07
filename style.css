@@ -142,6 +142,29 @@ section {
   color: #005fac;
 }
 /* gradient styles ends */
+/* motivation styles starts */
+.motivation {
+  height: 95vh;
+  background-image: url("./images/banner/banner2.png");
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.motivation-container {
+  padding: 15% 60%;
+}
+
+.motivation-title {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.motivation-desc {
+  font-weight: 900;
+  font-size: 65px;
+}
+/* motivation styles ends */
 /* footer styles starts */
 .footer-class {
   background-color: #151414;
