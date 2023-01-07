@@ -4,7 +4,7 @@
 }
 
 section {
-  margin: 130px 200px;
+  margin: 130px 150px;
 }
 
 /* for chrome based browser and mozilla browser */
@@ -26,7 +26,7 @@ section {
 
 .header-container {
   text-align: right;
-  padding: 200px 200px 0 800px;
+  padding: 150px 150px 0 700px;
 }
 
 .header-title {
@@ -122,7 +122,7 @@ section {
   background-image: url("./images/gradient1.png"), url("./images/watch.png");
   background-size: cover, cover;
   border-radius: 8px;
-  padding: 59px 617px 59px 64px;
+  padding: 50px 500px 50px 60px;
 }
 
 .gradient-title {
@@ -144,14 +144,15 @@ section {
 /* gradient styles ends */
 /* motivation styles starts */
 .motivation {
-  height: 95vh;
+  height: 100vh;
   background-image: url("./images/banner/banner2.png");
+  background-size: cover;
   border-radius: 8px;
   font-family: "Inter", sans-serif;
 }
 
 .motivation-container {
-  padding: 15% 60%;
+  padding: 11% 0 0 65%;
 }
 
 .motivation-title {
@@ -174,7 +175,7 @@ section {
 .footer-container {
   display: flex;
   gap: 330px;
-  margin: 130px 200px 0;
+  margin: 130px 200px 0 150px;
   padding: 130px 0;
 }
 
