@@ -7,6 +7,16 @@ section {
   margin: 130px 200px;
 }
 
+/* for chrome based browser and mozilla browser */
+::placeholder {
+  color: #f3f3f3;
+}
+
+/* for microsoft edge browser */
+::-ms-input-placeholder {
+  color: #f3f3f3;
+}
+
 /* header styles starts */
 .header-class {
   background-image: url("./images/banner/banner3.png");
@@ -132,3 +142,66 @@ section {
   color: #005fac;
 }
 /* gradient styles ends */
+/* footer styles starts */
+.footer-class {
+  background-color: #151414;
+  color: #ffffff;
+}
+
+.footer-container {
+  display: flex;
+  gap: 330px;
+  margin: 130px 200px 0;
+  padding: 130px 0;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+
+.contact p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.contact-desc {
+  margin-bottom: 24px;
+}
+
+.contact-number {
+  margin: 16px 0 32px;
+}
+
+.contact a {
+  margin-right: 17px;
+}
+
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.subscribe input[type="email"] {
+  width: 100%;
+  margin: 31px 0 16px;
+  padding: 21px;
+  background-color: #151414;
+  color: #f3f3f3;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+
+.subscribe input[type="submit"] {
+  background: #005fac;
+  border: 0;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px 35px;
+}
+/* footer styles ends */
