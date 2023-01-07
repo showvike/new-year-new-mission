@@ -38,3 +38,39 @@
   color: #005fac;
 }
 /* header styles ends */
+/* failures styles starts */
+.failures {
+  display: flex;
+  gap: 87px;
+  margin: 130px 200px;
+}
+
+.failures-container {
+  margin-top: 240px;
+}
+
+.failures-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+
+.failures-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin: 24px 0 16px;
+}
+
+.failures-list p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin: 8px 0;
+}
+
+.failures-list p i {
+  color: #16d887;
+  margin-right: 10px;
+}
+/* failures styles ends */
