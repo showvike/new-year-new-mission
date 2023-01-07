@@ -3,6 +3,10 @@
   font-family: "Work Sans", sans-serif;
 }
 
+section {
+  margin: 130px 200px;
+}
+
 /* header styles starts */
 .header-class {
   background-image: url("./images/banner/banner3.png");
@@ -42,7 +46,6 @@
 .failures {
   display: flex;
   gap: 87px;
-  margin: 130px 200px;
 }
 
 .failures-container {
@@ -74,3 +77,58 @@
   margin-right: 10px;
 }
 /* failures styles ends */
+/* plans styles starts */
+.plans {
+  text-align: center;
+}
+
+.plans-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 50px;
+}
+
+.plans-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin: 24px 0 16px;
+}
+
+.plan-short-desc {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+/* plans styles ends */
+/* gradient styles starts */
+.gradient {
+  background-image: url("./images/gradient1.png"), url("./images/watch.png");
+  background-size: cover, cover;
+  border-radius: 8px;
+  padding: 59px 617px 59px 64px;
+}
+
+.gradient-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.gradient-button {
+  padding: 20px 35px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #005fac;
+}
+/* gradient styles ends */
